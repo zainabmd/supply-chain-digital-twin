@@ -133,7 +133,7 @@ More detail: [Architecture](docs/ARCHITECTURE.md) · [Data dictionary](docs/DATA
 - Safety stock is optimised one DC at a time, not across the whole network at once.
 
 ---
-**Series:** [2023 · E-commerce analytics (Power BI)](../project1_ecommerce_analytics) → [2024 · SaaS revenue & churn (dbt + Tableau)](../project2_saas_churn_analytics)
+**Series:** [2023 · E-commerce analytics (Power BI)](../ecommerce-analytics-powerbi) → [2024 · SaaS revenue & churn (dbt + Tableau)](../project2_saas_churn_analytics)
 → **2025 · Supply-chain digital twin** → [2026 · Real-time fraud intelligence](../project4_fraud_detection)
 
 *Synthetic data. Company, supplier and facility names are illustrative. Geography and disruption events are
