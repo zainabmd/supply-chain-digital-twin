@@ -1,0 +1,16 @@
+[project]
+name = "supply-chain-digital-twin"
+version = "1.0.0"
+description = "Multi-tier supply-chain digital twin: Airflow ETL, DuckDB/Snowflake warehouse, quantile demand forecasting, NetworkX resilience analytics, SciPy optimisation and an executive Streamlit control tower."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: end-to-end warehouse integration (~20 s)"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py310"
